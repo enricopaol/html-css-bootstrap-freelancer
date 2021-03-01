@@ -8,6 +8,10 @@
     color: #333333;
 }
 
+img {
+    width: 100%;
+}
+
 
 /* HEADER */
 
@@ -27,4 +31,11 @@
 }
 .jumbotron img {
     width: 50%;
+}
+
+/* MAIN */
+/* Portfolio */
+
+.portfolio {
+    text-align: center;
 }
