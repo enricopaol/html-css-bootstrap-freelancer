@@ -16,6 +16,10 @@ img {
     padding: 30px 0;
 }
 
+.centered {
+    text-align: center;
+}
+
 
 /* HEADER */
 
@@ -42,4 +46,10 @@ img {
 
 .portfolio {
     text-align: center;
+}
+
+/* About */
+.about .small-wrapper {
+    width: 60%;
+    margin: 0 auto;
 }
