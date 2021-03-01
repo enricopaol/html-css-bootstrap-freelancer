@@ -20,6 +20,11 @@ img {
     text-align: center;
 }
 
+.small-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 /* HEADER */
 
@@ -48,8 +53,16 @@ img {
     text-align: center;
 }
 
-/* About */
-.about .small-wrapper {
-    width: 60%;
-    margin: 0 auto;
+
+/* FOOTER */
+footer {
+    color: white;
+}
+
+footer .contact-info {
+    background-color: #3a546d;
+}
+
+footer .copyright {
+    background-color: #3a546d;
 }
