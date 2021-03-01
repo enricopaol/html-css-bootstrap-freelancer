@@ -22,3 +22,9 @@
 }
 
 /* Jumbotron */
+.jumbotron {
+    text-align: center;
+}
+.jumbotron img {
+    width: 50%;
+}
