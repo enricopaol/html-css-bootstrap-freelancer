@@ -1,0 +1,24 @@
+/* COMMON */
+.green-section {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.white-section {
+    color: #333333;
+}
+
+
+/* HEADER */
+
+/* header nav */
+.header_nav {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.header_nav .menu .burger {
+    text-align: right;
+}
+
+/* Jumbotron */
