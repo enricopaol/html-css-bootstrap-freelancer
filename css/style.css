@@ -76,6 +76,7 @@
 .top-nav .logo {
     font-weight: 600;
     font-size: 20px;
+    line-height: 37px;
 }
 
 .top-nav .header_nav .burger i {
@@ -160,8 +161,48 @@
     padding-right: 10px;
 }
 
+/* Contact */
+#contact-form input,
+#contact-form textarea {
+    box-shadow: none;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #b8b5b5;
+    padding-bottom: 30px;
+    height: 50px;
+    font-size:20px;
+    font-weight: 500;
+    margin-top:10px;
+}
 
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #536270;
+    font-size:20px;
+    font-weight: 500;
+}
 
+#contact-form textarea {
+    height: 150px;
+}
+
+#contact-form .form_btn {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+#contact-form .form_btn:hover {
+    color: #1abc9c;
+    background-color: #fff;
+    border-color:#1abc9c;
+}
 
 
 /* FOOTER */
@@ -207,6 +248,7 @@ footer .copyright {
     /* Nav Top */
     .top-nav .logo {
         font-size: 22px;
+        line-height: 28px;
     }
 
     /* Jumbotron */    
@@ -241,6 +283,7 @@ footer .copyright {
     /* Nav Top */
     .top-nav .logo {
         font-size: 22px;
+        line-height: 28px;
     }
 
      /* Jumbotron */
