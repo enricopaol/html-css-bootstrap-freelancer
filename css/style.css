@@ -26,7 +26,8 @@
 }
 
 .small-wrapper {
-    width: 60%;
+    width: 70%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -137,10 +138,26 @@
 }
 
 /* About */
-
 .about div p {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.about .btn.btn-default {
+    color: white;
+    background-color: #1abc9c;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about .btn.btn-default:hover{
+    background-color: #fff;
+    color: #1abc9c;
+}
+.about .btn.btn-default i {
+    padding-right: 10px;
 }
 
 
