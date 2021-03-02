@@ -11,6 +11,15 @@
 .padding_block_30 {
     padding: 30px 0;
 }
+.padding_block_20 {
+    padding: 20px 0;
+}
+.padding_bottom_30 {
+    padding-bottom: 30px;
+}
+.padding_bottom_20 {
+    padding-bottom: 20px;
+}
 
 .centered {
     text-align: center;
@@ -33,9 +42,24 @@
     width:60px;
     height: 3px;
     display: inline-block;
-    background-color: #fff;
     vertical-align: middle;
     border-radius: 5px;
+}
+
+.star.white::before,
+.star.white::after {
+    background-color: white;
+}
+
+.star.blue::before,
+.star.blue::after {
+    background-color: #2c3e50;
+}
+
+.entry-title {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
 }
 
 
@@ -104,9 +128,23 @@
 /* MAIN */
 /* Portfolio */
 
-.portfolio {
-    text-align: center;
+.portfolio .box-image {
+    margin-bottom: 20px;
 }
+
+.portfolio .box-image img {
+    border-radius: 10px;
+}
+
+/* About */
+
+.about div p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
 
 
 /* FOOTER */
@@ -128,14 +166,7 @@ footer .copyright {
 /* Tablet */
 @media all and (min-width: 768px) and (max-width: 991px) {
 
-    /* HEADER */
-
-    /* Nav Top */
-    .top-nav .logo {
-        font-size: 22px;
-    }
-
-    /* Jumbotron */
+    /* COMMON */
     .star i {
         padding: 0 30px;
     }
@@ -146,18 +177,14 @@ footer .copyright {
     width: 150px;
     height: 3px;
     display: inline-block;
-    background-color: #fff;
     vertical-align: middle;
     border-radius: 5px;
     }
 
-    .jumbotron h3 {
-        font-size: 22px;        
+    .entry-title {
+        font-size: 55px;
     }
-}
 
-/* PC */
-@media all and (min-width: 992px){
     /* HEADER */
 
     /* Nav Top */
@@ -165,8 +192,17 @@ footer .copyright {
         font-size: 22px;
     }
 
-     /* Jumbotron */
-     .star i {
+    /* Jumbotron */    
+    .jumbotron h3 {
+        font-size: 22px;        
+    }
+}
+
+/* PC */
+@media all and (min-width: 992px){
+
+    /* COMMON */
+    .star i {
         padding: 0 30px;
     }
 
@@ -176,11 +212,21 @@ footer .copyright {
     width: 170px;
     height: 3px;
     display: inline-block;
-    background-color: #fff;
     vertical-align: middle;
     border-radius: 5px;
     }
 
+    .entry-title {
+        font-size: 50px;
+    }
+
+    /* HEADER */
+    /* Nav Top */
+    .top-nav .logo {
+        font-size: 22px;
+    }
+
+     /* Jumbotron */
     .jumbotron h3 {
         font-size: 22px;
     }
