@@ -166,9 +166,9 @@
 #contact-form textarea {
     box-shadow: none;
     border-radius: 0;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
     border-bottom: 1px solid #b8b5b5;
     padding-bottom: 30px;
     height: 50px;
